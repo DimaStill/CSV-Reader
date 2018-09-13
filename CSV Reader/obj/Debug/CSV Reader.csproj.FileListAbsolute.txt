@@ -1,0 +1,7 @@
+C:\Users\Дима\Source\Repos\CSV Reader\CSV Reader\bin\Debug\CSV Reader.exe.config
+C:\Users\Дима\Source\Repos\CSV Reader\CSV Reader\bin\Debug\CSV Reader.exe
+C:\Users\Дима\Source\Repos\CSV Reader\CSV Reader\bin\Debug\CSV Reader.pdb
+C:\Users\Дима\Source\Repos\CSV Reader\CSV Reader\obj\Debug\CSV Reader.csprojResolveAssemblyReference.cache
+C:\Users\Дима\Source\Repos\CSV Reader\CSV Reader\obj\Debug\CSV Reader.csproj.CoreCompileInputs.cache
+C:\Users\Дима\Source\Repos\CSV Reader\CSV Reader\obj\Debug\CSV Reader.exe
+C:\Users\Дима\Source\Repos\CSV Reader\CSV Reader\obj\Debug\CSV Reader.pdb
