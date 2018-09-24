@@ -13,6 +13,7 @@ namespace CSV_Reader
         {
             do
             {
+                Console.SetWindowSize(100, 25);
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Write("Path to file: ");
@@ -63,8 +64,6 @@ namespace CSV_Reader
                     line = fileStream.ReadLine();
                 }
             }
-
-            
         }
 
         public void Display(int startPosition)
@@ -81,10 +80,21 @@ namespace CSV_Reader
             }
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(lines[0]);
+            for (int i = 0; i < lines[0].Split(',').Length; i++)
+            {
+                if (i == 2)
+                    Console.Write(lines[0].Split(',')[i] + "\t\t\t");
+                else
+                    Console.Write(lines[0].Split(',')[i] + "\t");
+            }
+            Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             for (int i = startPosition; i < startPosition + countRowsConsole; i++)
-                Console.WriteLine(lines[i]);
+            {
+                foreach (string s in lines[i].Split(','))
+                    Console.Write(s + "\t");
+                Console.WriteLine();
+            }
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("[↑] - Prev line [↓] - Next line [Page Up] - Prev page [Page Down] - Next page");
         }
